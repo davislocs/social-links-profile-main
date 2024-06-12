@@ -1,0 +1,26 @@
+//font colors
+$clr: (
+    "accent-550": hsl(75, 94%, 57%, 1),
+    "accent-500": hsl(74, 57%, 38%, 1),
+    "neutral-200": hsl(0, 0%, 8%, 1),
+    "neutral-250": hsl(0, 0%, 12%, 1),
+    "neutral-300": hsl(0, 0%, 20%, 1),
+    "neutral-500": hsl(0, 0%, 56%, 1),
+    "neutral-800": hsl(0, 0%, 79%, 1)
+);
+//font sizes
+$fs: (
+    "fs-s": 1.4rem,
+    "fs-m": 1.6rem,
+    "fs-ml": 2.4rem
+);
+//Screen break points//
+$brakepoint-tablet: 1200px;
+$brakepoint-mobile: 750px;
+
+//font weights
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+$ff-primary: "Inter", "sans-serif";

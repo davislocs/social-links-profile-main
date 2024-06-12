@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+.green {
+    color: map-get($clr, accent-500);
+}
+
+.semi-bold {
+    font-weight: $fw-semi-bold;
+}
+
+.grey {
+    color:  map-get($clr, neutral-500);
+}

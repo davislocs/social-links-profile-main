@@ -1,0 +1,34 @@
+@use 'variables' as *;
+
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+html{
+    font-size: 62.5%;
+    font-weight: $fw-regular;
+    font-family: $ff-primary;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+img{
+    display: block;
+}

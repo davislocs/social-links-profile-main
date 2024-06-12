@@ -1,0 +1,81 @@
+@use 'resets' as *;
+// @use 'mixins' as *;
+@use 'variables' as *;
+@use 'utility' as *;
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: map-get($clr, neutral-200);
+}
+
+p {
+    font-size: map-get($fs, fs-s);
+    color: map-get($clr, neutral-800);
+    font-weight: $fw-regular;
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 4rem;
+    background-color: map-get($clr, neutral-250);
+    border-radius: 2rem;
+
+    // width: 40rem;
+    // height: 65rem;
+
+    &_header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &_profile-picture {
+            width: 9rem;
+            height: 9rem;
+            border-radius: 50%;
+            margin-bottom: 2.5rem;
+        }
+
+        &_name {
+            font-size: map-get($fs, fs-ml);
+            font-weight: $fw-bold;
+            color: map-get($clr, neutral-800);
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    &_link-section {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+    }
+}
+
+.button {
+    width: 100%;
+    max-width: 32rem;
+    height: 4rem;
+    border-radius: 1rem;
+    background-color: map-get($clr, neutral-300);
+
+    color: map-get($clr, neutral-800 );
+    font-weight: $fw-bold;
+    letter-spacing: 0.005rem;
+
+}
+
+.button:hover { 
+    background-color: map-get($clr, accent-550);
+    color: map-get($clr, neutral-300 );
+}
