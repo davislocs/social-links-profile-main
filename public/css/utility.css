@@ -1,0 +1,11 @@
+.green {
+  color: hsl(74, 57%, 38%);
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.grey {
+  color: hsl(0, 0%, 56%);
+}
